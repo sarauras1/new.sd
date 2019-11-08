@@ -1,0 +1,344 @@
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  
+  
+  body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: white;
+   color: black;
+    margin: 0 auto;
+   } 
+   
+  
+  h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .container { 
+    margin-top:50px;
+    margin-bottom: 50px;
+    
+   
+    background-color: white;
+    color: black !important;
+    text-anchor: none;
+  }
+  .fluid-container{
+    margin: 0;
+    
+  }
+  
+  /* Navigation */
+  #navbar-primary a {
+  text-decoration: none;
+  color: black;
+  }
+  #navbar-primary a:hover{
+    color: rgb(117, 97, 79);
+  }
+   .navbar-nav li a:hover{
+    border-radius: 50%;
+  }
+  #navbar-primary  img {
+   margin-left: 20px;
+  
+
+  }
+  
+  
+  #navbar-primary {
+   font-family: 'Shadows Into Light', cursive;
+   background-color: white;
+   color: black;
+   width: 100%;
+   position: fixed;
+   z-index: 5;
+  
+  }
+  
+  
+   
+  
+  /* desktop and tablet */
+  
+     @media only screen and (min-width : 768px) {
+       #navbar-primary{
+         font-family: 'Shadows Into Light', cursive;
+         width: 100%;
+      }
+      #navbar-primary .navbar-nav {
+       margin-left: 200px;
+       margin-top: -65px;
+      }
+      #navbar-primary .navbar-nav img {
+        margin-top: 20px;
+        width: 120px;
+        height: 60px;
+        border-radius: 100px / 50px;
+      }
+  }
+  
+  
+  @media only screen and (min-width : 992px){
+  
+  #navbar-primary .navbar-nav li{
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+  #navbar-primary img{
+    width: 200px;
+    height: 100px;
+    border-radius: 100px / 50px;
+  }
+  #navbar-primary .navbar-nav {
+   margin-left: 50%;
+   margin-top: -6.7%;
+  
+  }
+  }
+  
+  
+     /* mobile */
+     @media only screen and (max-width : 768px) {
+     #navbar-primary{
+       margin-bottom: 100px;
+     }
+     #navbar-primary li {
+       text-align: center;
+       margin-left: 25px;
+     }
+       #navbar-primary img {
+       margin-top: 20px;
+       margin-left: 10px;
+       width: 80px;
+       height: 40px;
+       border-radius: 100px / 50px;
+       }
+       #navbar-primary .navbar-nav li:hover{
+         background-color: none;
+       }
+     }
+   /* gallery */
+  .crop {
+    height: 415px;
+  }
+   /*product page*/
+   #SDoil{
+     text-align: center;
+     width: 500px;
+     height: 300px;
+   }
+   #title{
+    font-family: 'Permanent Marker', cursive;
+   }
+   @media only screen and (min-width : 767px){
+  
+  
+     .oils {
+    float: left;
+     width: 300px;
+     height: 200px;
+     margin-right: 40px;
+   }
+   .benefits {
+     color: black;
+     margin-top:30px;
+     margin-bottom:20px;
+     font-size: 2rem;
+    
+   }
+  }
+   @media only screen and (max-width : 767px){
+   
+    .oils {
+      width: 290px;
+      height: 200px;
+    }
+    
+  }
+     
+   @media only screen and (max-width : 425px){
+    
+     .benefits{
+       font-size: 1.5rem;
+       position: relative;
+  
+     }
+     .oils{
+       text-align: center;
+       margin-bottom: 20px;
+     }
+   }
+  
+   /*services page*/
+ .services{
+ 
+  box-shadow: 0 4px 8px 0 rgba(121, 71, 145, 0.185), 0 6px 20px 0 rgba(85, 60, 117, 0.19);
+}
+.box-services{
+ text-align: center;
+ color: white;
+ 
+}
+
+.centered {
+  font-size: 3.5rem;
+  z-index: 3;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-family: 'Permanent Marker', cursive;
+}
+
+@media only screen and (min-width : 1024px){
+ .services{
+   width:500px; 
+   height:400px;
+   margin:20px 0;
+ }
+ .collapsible {
+   margin-top:-22px;
+    width: 500px;
+    height: 70px;
+ }
+ 
+ .content {
+   width: 500px;
+   padding: 0 18px;
+   display: none;
+   overflow: hidden;
+   background-color:#693088;
+   color: #a79031;
+   position: absolute;
+   text-align: center;
+   border: 1px solid #a79031;
+   border-radius: 20%;
+   bottom: 20px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 4;
+ }
+}
+@media only screen and (max-width : 992px){
+ .services{
+   width: 400px;
+   height: 250px;
+
+ }
+  .collapsible {
+    width: 400px;
+    height: 70px;
+ }
+ .content {
+   width:100%;
+   padding: 0 18px;
+   display: none;
+   overflow: hidden;
+   background-color:#693088;
+   color: #a79031;
+   position:relative;
+   text-align: center;
+   border: 1px solid #a79031;
+  z-index: 4;
+ }
+}
+
+@media only screen and (max-width: 425px){
+ .box-services{
+   text-align: center;
+ }
+ .services{
+   width: 300px;
+   height: 200;
+   text-align: center;
+
+ }
+  .collapsible {
+    width: 300px;
+    height: 70px;
+    text-align: center;
+ }
+ .content {
+   padding: 0 18px;
+   display: none;
+   overflow: hidden;
+   background-color:#693088;
+   color: #a79031;
+   position: absolute;
+   text-align: center;
+   border: 1px solid #a79031;
+   width: 100%;
+   z-index: 4;
+ }
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+background-color: #2d2233;
+color: #a79031;
+ cursor: pointer;
+ padding: 18px;
+ border: 1px solid #a79031;
+ text-align: center;
+ outline: none;
+ font-size: 15px;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+ background-color:#693088;
+}
+  
+  
+   /* myStory */
+   #myStory{
+    max-width: 900px;
+    margin: 100px auto;
+   text-align: left;
+   }
+   /* index.html */
+   #indexh1 {
+     font-family: 'Permanent Marker', cursive;
+    margin-top:200px; 
+    color: black;
+   }
+  
+   /* contact */
+  
+    footer {
+    background-color: #cfc8ab;
+    padding: 20px;
+    text-align: center;
+    border:1px solid #a79031;
+    color: #2d2233;
+  }
+  .social {
+    color: #a79031;
+    background-color: #2d2233;
+    padding: 10px;
+    border: 1px solid #a79031;
+    border-radius: 40%;
+    margin: 5px;
+  }
+  #copyright {
+    text-align: center;
+    background-color: #a3965f;
+    color: #693088;
+    padding: 10px;
+  }
