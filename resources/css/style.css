@@ -167,9 +167,7 @@
    }
   }
    @media only screen and (max-width : 767px){
-    #title {
-      font-size: 1rem;
-    }
+    
     .oils {
       width: 290px;
       height: 200px;
@@ -294,6 +292,47 @@ color: #a79031;
     margin-top:200px; 
     color: black;
    }
+   /* lashes.html  and brows.html*/
+   .lashPara {
+    font-size: 2rem;
+     text-align: center;
+   }
+   .lashtitle{
+    font-family: 'Permanent Marker', cursive; 
+    font-size: 2rem;
+    text-align: center;
+   }
+   .microtitle{
+    font-family: 'Permanent Marker', cursive; 
+    font-size: 2rem;
+    text-align: center;
+   }
+   @media only screen and (min-width : 767px){
+  
+   .lashimg {
+      text-align: center;
+      width: 500px;
+    margin: 20px;
+    }
+     .lashPara{
+       margin: 0 20%;
+     }
+    .browimg{
+      text-align: center;
+      width: 500px;
+      margin: 20px;
+    }
+  }
+   @media only screen and (max-width : 767px){
+  
+    .lashimg{
+      text-align: center;
+      width: 300px;
+      margin: 20px;
+    }
+  }
+     
+   
   
    /* contact */
   
