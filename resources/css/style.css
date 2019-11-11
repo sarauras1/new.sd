@@ -94,8 +94,23 @@
       }
   }
   
-  
-  @media only screen and (min-width : 992px){
+  @media only screen and (min-width : 800px) {
+    #navbar-primary{
+      font-family: 'Shadows Into Light', cursive;
+      width: 100%;
+   }
+   #navbar-primary .navbar-nav {
+    margin-left: 200px;
+    margin-top: -65px;
+   }
+   #navbar-primary .navbar-nav img {
+     margin-top: 25px;
+     width: 120px;
+     height: 60px;
+     border-radius: 100px / 50px;
+   }
+}
+  @media only screen and (min-width : 900px){
   
   #navbar-primary .navbar-nav li{
     font-size: 2rem;
@@ -135,11 +150,11 @@
        #navbar-primary .navbar-nav li:hover{
          background-color: none;
        }
+       .navbar-nav {
+         margin-bottom: 10px;
+       }
      }
-   /* gallery */
-  .crop {
-    height: 415px;
-  }
+  
    /*product page*/
   
    #title{
@@ -204,43 +219,61 @@
 .services{
   opacity: 5;
 }
-.centered {
-  font-size: 4rem;
-  z-index: 3;
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- font-family: 'Permanent Marker', cursive;
-}
 
-@media only screen and (min-width : 1024px){
- .services{
-   width: 400px; 
-   height:300px;
-   margin:20px;
- }
- .collapsible {
-   margin-left: 10px;
-   margin-top:-20px;
-    width: 400px;
-    height: 70px;
- }
+
+
  
  
-}
-@media only screen and (max-width : 992px){
- .services{
-   width: 400px;
-   height: 250px;
 
+@media only screen and (min-width : 768px){
+ .services{
+   text-align: center;
+   width: 600px;
+  
  }
   .collapsible {
-    width: 400px;
+    text-align: center;
+    width: 600px;
     height: 70px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+   text-align: center;
+   position: relative;
  }
+ .centered {
+  font-size: 5rem;
+  z-index: 3;
+ font-family: 'Permanent Marker', cursive;
+ margin-top: -160px;
+ text-align: center;
  
 }
+}
+}
+@media only screen and (max-width : 768px){
+  .services{
+    text-align: center;
+    width: 400px;
+    height: 250px;
+ 
+  }
+   .collapsible {
+     text-align: center;
+     width: 400px;
+     height: 70px;
+     margin-bottom: 50px;
+   
+  }
+  .centered {
+    font-size: 4rem;
+    z-index: 3;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Permanent Marker', cursive;
+  }
+ }
 
 @media only screen and (max-width: 425px){
  .box-services{
@@ -259,7 +292,15 @@
     height: 70px;
     text-align: center;
  }
- 
+ .centered {
+  font-size: 4rem;
+  z-index: 3;
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-family: 'Permanent Marker', cursive;
+}
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -292,6 +333,8 @@ color: #a79031;
     margin-top:200px; 
     color: black;
    }
+   
+  
    /* lashes.html  and brows.html*/
    .lashPara {
     font-size: 2rem;
@@ -335,6 +378,7 @@ color: #a79031;
       width: 300px;
       margin: 20px;
     }
+   
   }
      
    
