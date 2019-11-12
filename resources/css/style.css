@@ -137,7 +137,7 @@
       }
       }
      
-  @media  (min-width : 767px) and (max-width: 778px) and (orientation: landscape) {
+  @media  (man-width : 767px)  {
   
   #navbar-primary .navbar-nav li{
     font-size: 2rem;
