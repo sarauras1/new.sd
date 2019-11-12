@@ -74,69 +74,38 @@
   
   
    
+ 
   
-  /* desktop and tablet */
-  
-     @media only screen and (min-width : 768px) {
-       #navbar-primary{
-         font-family: 'Shadows Into Light', cursive;
-         width: 100%;
-      }
-      #navbar-primary .navbar-nav {
-       margin-left: 200px;
-       margin-top: -65px;
-      }
-      #navbar-primary .navbar-nav img {
-        margin-top: 25px;
-        width: 120px;
-        height: 60px;
-        border-radius: 100px / 50px;
-      }
-  }
-  
-  @media only screen and (min-width : 800px) {
-    #navbar-primary{
-      font-family: 'Shadows Into Light', cursive;
-      width: 100%;
-   }
-   #navbar-primary .navbar-nav {
-    margin-left: 200px;
-    margin-top: -65px;
-   }
-   #navbar-primary .navbar-nav img {
-     margin-top: 25px;
-     width: 120px;
-     height: 60px;
-     border-radius: 100px / 50px;
-   }
-}
   @media only screen and (min-width : 900px){
   
   #navbar-primary .navbar-nav li{
     font-size: 2rem;
-    margin-left: 20px;
+   display: inline;
+   justify-content: center;
+   margin-left: 10px;
   }
   #navbar-primary img{
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
     border-radius: 100px / 50px;
-    margin-top:20px;
-    margin-bottom: 20px;
+    margin:20px;
+    justify-content: center;
   }
   #navbar-primary .navbar-nav {
    margin-left: 40%;
-   margin-top: -7%;
-  
+  justify-content: center;
+  margin-top: -6%;
   }
   }
   
   
      /* mobile */
-     @media only screen and (max-width : 768px) {
+     @media only screen and (max-width : 900px) {
      #navbar-primary{
        margin-bottom: 100px;
      }
      #navbar-primary li {
+      font-size: 1.8rem;
        text-align: center;
        margin-left: 25px;
      }
@@ -222,8 +191,6 @@
 
 
 
- 
- 
 
 @media only screen and (min-width : 768px){
  .services{
@@ -249,7 +216,7 @@
  
 }
 }
-}
+
 @media only screen and (max-width : 768px){
   .services{
     text-align: center;
@@ -260,7 +227,7 @@
    .collapsible {
      text-align: center;
      width: 400px;
-     height: 70px;
+     height: 80px;
      margin-bottom: 50px;
    
   }
@@ -289,7 +256,7 @@
  }
   .collapsible {
     width: 300px;
-    height: 70px;
+    height: 80px;
     text-align: center;
  }
  .centered {
