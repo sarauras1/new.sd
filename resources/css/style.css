@@ -169,7 +169,6 @@
      #navbar-primary li {
       font-size: 1.8rem;
        text-align: center;
-       margin-left: 25px;
      }
        #navbar-primary img {
        margin-top: 25px;
@@ -279,7 +278,7 @@
 }
 }
 
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 600px){
   .services{
     text-align: center;
     width: 400px;
