@@ -114,7 +114,7 @@
      margin-top: -8%;
       }
       }
-    @media  (min-width : 800px) and (max-width: 850px) and (orientation: landscape) {
+    @media  (min-width : 778px) and (max-width: 850px) and (orientation: landscape) {
   
       #navbar-primary .navbar-nav li{
         font-size: 2rem;
@@ -137,7 +137,7 @@
       }
       }
      
-  @media  (min-width : 768px) and (max-width: 800px) and (orientation: landscape) {
+  @media  (min-width : 767px) and (max-width: 778px) and (orientation: landscape) {
   
   #navbar-primary .navbar-nav li{
     font-size: 2rem;
@@ -399,8 +399,8 @@ color: #a79031;
   
     .lashimg{
       text-align: center;
-      width: 400px;
-      margin: 10px;
+      width: 300px;
+      margin-right: 10px;
     }
     .browimg{
       text-align: center;
