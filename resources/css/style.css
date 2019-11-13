@@ -137,28 +137,7 @@
       }
       }
      
-  @media  (max-width : 768px)  {
   
-  #navbar-primary .navbar-nav li{
-    font-size: 2rem;
-   display: inline;
-   justify-content: center;
-  
-  }
-  #navbar-primary img{
-    width: 150px;
-    height: 75px;
-    border-radius: 100px / 50px;
-    margin:20px;
-    justify-content: center;
-  }
-  #navbar-primary .navbar-nav {
-   margin-left: 30%;
-  justify-content: center;
-  position: relative;
- margin-top: -11%;
-  }
-  }
   
   
      /* mobile */
