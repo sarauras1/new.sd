@@ -162,13 +162,14 @@
   
   
      /* mobile */
-     @media only screen and (max-width : 600px) {
+     @media only screen and (max-width : 700px) {
      #navbar-primary{
        margin-bottom: 100px;
      }
      #navbar-primary li {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
        text-align: center;
+       Margin-right: 40px;
      }
        #navbar-primary img {
        margin-top: 25px;
@@ -182,8 +183,8 @@
        }
        .navbar-nav {
          margin-bottom: 10px;
-         margin-top: 20px;
-         margin-right: 20px;
+         margin-top: 40px;
+         
        }
      }
   
