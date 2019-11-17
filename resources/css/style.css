@@ -69,14 +69,13 @@
   }
   
   
-   
- 
-  @media only screen and (min-width : 992px){
+  
+  @media only screen and (min-width : 1025px) {
   
     #navbar-primary .navbar-nav li{
       font-size: 2rem;
-     display: inline;
-     justify-content: center;
+     
+    
      margin-left: 25px;
     }
     #navbar-primary img{
@@ -84,31 +83,50 @@
       height: 75px;
       border-radius: 100px / 50px;
       margin:20px;
-      justify-content: center;
     }
     #navbar-primary .navbar-nav {
      margin-left: 40%;
-    justify-content: center;
     margin-top: -6%;
     }
+    } 
+ 
+  @media only screen and (min-width : 992px)and (max-width: 1024px) and (orientation: landscape) {
+  
+    #navbar-primary .navbar-nav li{
+      font-size: 2rem;
+     
+    
+     margin-left: 25px;
     }
-    @media  (min-width : 850px) and (max-width: 992px) and (orientation: landscape) {
+    #navbar-primary img{
+      width: 150px;
+      height: 75px;
+      border-radius: 100px / 50px;
+      margin:20px;
+    }
+    #navbar-primary .navbar-nav {
+     margin-left: 40%;
+    margin-top: -7.5%;
+    }
+    }
+    @media  (min-width : 800px) and (max-width: 992px) and (orientation: landscape) {
   
       #navbar-primary .navbar-nav li{
         font-size: 2rem;
-       display: inline;
-       justify-content: center;
       
       }
+
       #navbar-primary img{
         width: 150px;
         height: 75px;
         border-radius: 100px / 50px;
         margin:20px;
-        justify-content: center;
+       
       }
       #navbar-primary .navbar-nav {
        margin-left: 40%;
+<<<<<<< HEAD
+=======
       justify-content: center;
       position: relative;
      margin-top: -8%;
@@ -120,24 +138,40 @@
         font-size: 2rem;
        display: inline;
        justify-content: center;
+>>>>>>> c700a17650ff88a35c7731f11b226db60a2013a2
       
-      }
-      #navbar-primary img{
-        width: 150px;
-        height: 75px;
-        border-radius: 100px / 50px;
-        margin:20px;
-        justify-content: center;
-      }
-      #navbar-primary .navbar-nav {
-       margin-left: 40%;
-      justify-content: center;
       position: relative;
-     margin-top: -9%;
+     margin-top: -11%;
       }
       }
+   
      
+<<<<<<< HEAD
+  @media  (min-width : 768px) and (max-width: 800px) and (orientation: landscape) {
   
+  #navbar-primary .navbar-nav li{
+    font-size: 2rem;
+   display: inline;
+   justify-content: center;
+  
+  }
+  #navbar-primary img{
+    width: 150px;
+    height: 75px;
+    border-radius: 100px / 50px;
+    margin:20px;
+    justify-content: center;
+  }
+  #navbar-primary .navbar-nav {
+   margin-left: 30%;
+  justify-content: center;
+  position: relative;
+   margin-top: -9%;
+  }
+  }
+=======
+  
+>>>>>>> c700a17650ff88a35c7731f11b226db60a2013a2
   
   
      /* mobile */
@@ -148,7 +182,11 @@
      #navbar-primary li {
       font-size: 1.5rem;
        text-align: center;
+<<<<<<< HEAD
+    
+=======
        
+>>>>>>> c700a17650ff88a35c7731f11b226db60a2013a2
      }
        #navbar-primary img {
        margin-top: 25px;
