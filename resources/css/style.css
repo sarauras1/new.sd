@@ -3,46 +3,46 @@
 * {
     box-sizing: border-box;
   }
-  
+
   html {
     font-size: 20px;
     margin: 0 auto;
   }
-  
-  
+
+
   body {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    background-color: white;
    color: black;
     margin: 0 auto;
-   } 
-   
-  
+   }
+
+
   h2 {
     font-size: 1.7rem;
     font-weight: bold;
-  
+
   }
-  
+
   h3 {
     font-size: 1.3rem;
     font-weight: bold;
   }
-  
-  .container { 
+
+  .container {
     margin-top:50px;
     margin-bottom: 50px;
-    
-   
+
+
     background-color: white;
     color: black !important;
     text-anchor: none;
   }
   .fluid-container{
     margin: 0;
-    
+
   }
-  
+
   /* Navigation */
   #navbar-primary a {
   text-decoration: none;
@@ -54,9 +54,9 @@
    .navbar-nav li a:hover{
     border-radius: 50%;
   }
-  
-  
-  
+
+
+
   #navbar-primary {
    font-family: 'Shadows Into Light', cursive;
    background-color: white;
@@ -65,13 +65,13 @@
    width: 100%;
    position: fixed;
    z-index: 5;
-  
+
   }
-  
-  
-  
+
+
+
   @media only screen and (min-width : 992px) {
-  
+
     #navbar-primary .navbar-nav li{
       font-size: 2rem;
       padding: 35px;
@@ -83,17 +83,17 @@
      padding:0;
      margin: 20px;
     }
-   
-    } 
- 
- 
-    
-    
-   
-   
-    
+
+    }
+
+
+
+
+
+
+
   @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
-  
+
   #navbar-primary .navbar-nav li{
     font-size: 2rem;
     padding: 15px;
@@ -107,8 +107,8 @@
   }
   }
 
-  
-  
+
+
      /* mobile */
      @media only screen and (max-width : 767px) {
      #navbar-primary{
@@ -117,10 +117,10 @@
      #navbar-primary li {
       font-size: 1.5rem;
        text-align: center;
- 
+
      }
        #navbar-primary img {
-      margin: 20px;
+      margin: 30px;
        width: 100px;
        height: 50px;
        border-radius: 100px /50px;
@@ -132,17 +132,21 @@
       #navbar-primary .navbar-nav {
          margin-bottom: 20px;
          margin-top: 100px;
-         
+
+       }
+       #navbar-primary span {
+         padding-bottom: 30px;
+         font-size: 2rem;
        }
      }
-  
+
    /*product page*/
-  
+
    #title{
     font-family: 'Permanent Marker', cursive;
    }
    @media only screen and (min-width : 767px){
-  
+
     #SDoil{
       text-align: center;
       width: 500px;
@@ -159,11 +163,11 @@
      margin-top:30px;
      margin-bottom:20px;
      font-size: 2rem;
-    
+
    }
   }
    @media only screen and (max-width : 767px){
-    
+
     .oils {
       width: 290px;
       height: 200px;
@@ -174,7 +178,7 @@
       height: 159px;
     }
   }
-     
+
    @media only screen and (max-width : 425px){
     #title h1 {
       font-size: 2rem;
@@ -182,20 +186,20 @@
      .benefits{
        font-size: 1.5rem;
        position: relative;
-  
+
      }
      .oils{
        text-align: center;
        margin-bottom: 20px;
      }
    }
-  
+
    /*services page*/
 
 .box-services{
  text-align: center;
  color: white;
- 
+
 }
 .services{
   opacity: 5;
@@ -208,7 +212,7 @@
  .services{
    text-align: center;
    width: 600px;
-  
+
  }
   .collapsible {
     text-align: center;
@@ -225,7 +229,7 @@
  font-family: 'Permanent Marker', cursive;
  margin-top: -160px;
  text-align: center;
- 
+
 }
 }
 
@@ -234,14 +238,14 @@
     text-align: center;
     width: 400px;
     height: 250px;
- 
+
   }
    .collapsible {
      text-align: center;
      width: 400px;
      height: 80px;
      margin-bottom: 50px;
-   
+
   }
   .centered {
     font-size: 4rem;
@@ -258,7 +262,7 @@
  .box-services{
    text-align: center;
    margin-bottom: 50px;
-  
+
  }
  .services{
    width: 300px;
@@ -298,8 +302,8 @@ color: #a79031;
 .active, .collapsible:hover {
  background-color:#693088;
 }
-  
-  
+
+
    /* myStory */
    #myStory{
     max-width: 900px;
@@ -309,28 +313,28 @@ color: #a79031;
    /* index.html */
    #indexh1 {
      font-family: 'Permanent Marker', cursive;
-    margin-top:200px; 
+    margin-top:200px;
     color: black;
    }
-   
-  
+
+
    /* lashes.html, brows.html and microblading.html*/
    .lashPara {
     font-size: 2rem;
      text-align: center;
    }
    .lashtitle{
-    font-family: 'Permanent Marker', cursive; 
+    font-family: 'Permanent Marker', cursive;
     font-size: 2rem;
     text-align: center;
    }
    .microtitle{
-    font-family: 'Permanent Marker', cursive; 
+    font-family: 'Permanent Marker', cursive;
     font-size: 2rem;
     text-align: center;
    }
    @media only screen and (min-width : 767px){
-  
+
    .lashimg {
       text-align: center;
       width: 500px;
@@ -346,7 +350,7 @@ color: #a79031;
     }
   }
    @media only screen and (max-width : 767px){
-  
+
     .lashimg{
       text-align: center;
       width: 300px;
@@ -357,12 +361,12 @@ color: #a79031;
       width: 300px;
       margin: 20px;
     }
-   
+
   }
- 
- 
+
+
    /* contact */
-  
+
     footer {
     background-color: #cfc8ab;
     padding: 20px;
