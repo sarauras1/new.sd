@@ -74,7 +74,7 @@
 
     #navbar-primary .navbar-nav li{
       font-size: 2rem;
-      padding: 35px;
+      padding: 35px 5px;
     }
     #navbar-primary img{
       width: 150px;
@@ -83,7 +83,9 @@
      padding:0;
      margin: 20px;
     }
-
+    #navbar-primary .navbar-nav {
+    margin-right: 50px;
+    }
     }
 
 
@@ -92,11 +94,11 @@
 
 
 
-  @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
+  @media  (min-width : 767px) and (max-width: 991px) and (orientation: landscape) {
 
   #navbar-primary .navbar-nav li{
-    font-size: 2rem;
-    padding: 15px;
+    font-size: 1.7rem;
+    padding: 20px 0;
   }
   #navbar-primary img{
     width: 120px;
@@ -104,6 +106,9 @@
     border-radius: 100px / 50px;
     margin:15px;
     padding: 0;
+  }
+  #navbar-primary .navbar-nav{
+    margin-right: 40px;
   }
   }
 
@@ -237,7 +242,6 @@
   .services{
     text-align: center;
     width: 400px;
-    height: 250px;
 
   }
    .collapsible {
@@ -266,7 +270,6 @@
  }
  .services{
    width: 300px;
-   height: 200px;
    text-align: center;
 
  }
@@ -279,7 +282,7 @@
   font-size: 4rem;
   z-index: 3;
  position: absolute;
- top: 40%;
+ top: 30%;
  left: 50%;
  transform: translate(-50%, -50%);
  font-family: 'Permanent Marker', cursive;
@@ -316,8 +319,16 @@ color: #a79031;
     margin-top:200px;
     color: black;
    }
-
-
+    @media only screen and (min-width : 768px) and (max-width: 991px) and (orientation: landscape){
+      #last-image{
+        margin-top: 25px;
+      }
+    }
+    @media only screen and (min-width : 992px){
+      #last-image{
+        margin-top: 35px;
+      }
+    }
    /* lashes.html, brows.html and microblading.html*/
    .lashPara {
     font-size: 2rem;
