@@ -70,137 +70,68 @@
   
   
   
-  @media only screen and (min-width : 1025px) {
+  @media only screen and (min-width : 992px) {
   
     #navbar-primary .navbar-nav li{
       font-size: 2rem;
-     
-    
-     margin-left: 25px;
+      padding: 35px;
     }
     #navbar-primary img{
       width: 150px;
       height: 75px;
       border-radius: 100px / 50px;
-      margin:20px;
+     padding:0;
+     margin: 20px;
     }
-    #navbar-primary .navbar-nav {
-     margin-left: 40%;
-    margin-top: -6%;
-    }
+   
     } 
  
-  @media only screen and (min-width : 992px)and (max-width: 1024px) and (orientation: landscape) {
-  
-    #navbar-primary .navbar-nav li{
-      font-size: 2rem;
-     
+ 
     
-     margin-left: 25px;
-    }
-    #navbar-primary img{
-      width: 150px;
-      height: 75px;
-      border-radius: 100px / 50px;
-      margin:20px;
-    }
-    #navbar-primary .navbar-nav {
-     margin-left: 40%;
-    margin-top: -7.5%;
-    }
-    }
-    @media  (min-width : 800px) and (max-width: 992px) and (orientation: landscape) {
-  
-      #navbar-primary .navbar-nav li{
-        font-size: 2rem;
-      
-      }
-
-      #navbar-primary img{
-        width: 150px;
-        height: 75px;
-        border-radius: 100px / 50px;
-        margin:20px;
-       
-      }
-      #navbar-primary .navbar-nav {
-       margin-left: 40%;
-<<<<<<< HEAD
-=======
-      justify-content: center;
-      position: relative;
-     margin-top: -8%;
-      }
-      }
-    @media  (min-width : 768px) and (max-width: 850px) and (orientation: landscape) {
-  
-      #navbar-primary .navbar-nav li{
-        font-size: 2rem;
-       display: inline;
-       justify-content: center;
->>>>>>> c700a17650ff88a35c7731f11b226db60a2013a2
-      
-      position: relative;
-     margin-top: -11%;
-      }
-      }
+    
    
-     
-<<<<<<< HEAD
-  @media  (min-width : 768px) and (max-width: 800px) and (orientation: landscape) {
+   
+    
+  @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
   
   #navbar-primary .navbar-nav li{
     font-size: 2rem;
-   display: inline;
-   justify-content: center;
-  
+    padding: 15px;
   }
   #navbar-primary img{
-    width: 150px;
-    height: 75px;
+    width: 120px;
+    height: 60px;
     border-radius: 100px / 50px;
-    margin:20px;
-    justify-content: center;
-  }
-  #navbar-primary .navbar-nav {
-   margin-left: 30%;
-  justify-content: center;
-  position: relative;
-   margin-top: -9%;
+    margin:15px;
+    padding: 0;
   }
   }
-=======
-  
->>>>>>> c700a17650ff88a35c7731f11b226db60a2013a2
+
   
   
      /* mobile */
-     @media only screen and (max-width : 600px) {
+     @media only screen and (max-width : 767px) {
      #navbar-primary{
        margin-bottom: 100px;
      }
      #navbar-primary li {
       font-size: 1.5rem;
        text-align: center;
-<<<<<<< HEAD
-    
-=======
-       
->>>>>>> c700a17650ff88a35c7731f11b226db60a2013a2
+ 
      }
        #navbar-primary img {
-       margin-top: 25px;
-       margin-left: 10px;
-       width: 80px;
-       height: 40px;
-       border-radius: 100px /60px;
+      margin: 20px;
+       width: 100px;
+       height: 50px;
+       border-radius: 100px /50px;
+       padding: 0;
        }
        #navbar-primary .navbar-nav li:hover{
          background-color: none;
        }
-       .navbar-nav {
-         margin-bottom: 10px;
-         margin-top: 40px;
+      #navbar-primary .navbar-nav {
+         margin-bottom: 20px;
+         margin-top: 100px;
          
        }
      }
@@ -298,7 +229,7 @@
 }
 }
 
-@media only screen and (max-width : 600px){
+@media only screen and (max-width : 767px){
   .services{
     text-align: center;
     width: 400px;
