@@ -55,7 +55,10 @@
     border-radius: 50%;
   }
 
-
+  #navbar-primary img {
+  border-radius: 100px /50px;
+  padding: 0;
+  }
 
   #navbar-primary {
    font-family: 'Shadows Into Light', cursive;
@@ -79,8 +82,6 @@
     #navbar-primary img{
       width: 150px;
       height: 75px;
-      border-radius: 100px / 50px;
-     padding:0;
      margin: 20px;
     }
     #navbar-primary .navbar-nav {
@@ -94,7 +95,7 @@
 
 
 
-  @media  (min-width : 769px) and (max-width: 991px) and (orientation: landscape) {
+  @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
 
   #navbar-primary .navbar-nav li{
     font-size: 1.7rem;
@@ -103,9 +104,7 @@
   #navbar-primary img{
     width: 120px;
     height: 60px;
-    border-radius: 100px / 50px;
     margin:15px;
-    padding: 0;
   }
   #navbar-primary .navbar-nav{
     margin-right: 40px;
@@ -124,8 +123,6 @@
    margin: 20px;
     width: 100px;
     height: 50px;
-    border-radius: 100px /50px;
-    padding: 0;
     }
    #navbar-primary .navbar-nav {
     margin-top: 20px;
@@ -138,14 +135,14 @@
 
 
      /* mobile */
-     @media only screen and (max-width : 600px) {
+     @media only screen and (max-width : 767px) {
      #navbar-primary{
        margin-bottom: 100px;
      }
      #navbar-primary li {
       font-size: 1.5rem;
        text-align: center;
-
+       margin-left: 60px;
      }
        #navbar-primary img {
       margin: 30px;
