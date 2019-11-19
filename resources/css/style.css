@@ -94,7 +94,7 @@
 
 
 
-  @media  (min-width : 600px) and (max-width: 991px) and (orientation: landscape) {
+  @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
 
   #navbar-primary .navbar-nav li{
     font-size: 1.7rem;
@@ -112,6 +112,23 @@
   }
   }
 
+  @media  (min-width : 600px) and (max-width: 768px) and (orientation: landscape) {
+
+  #navbar-primary .navbar-nav li{
+    font-size: 1.7rem;
+    padding: 20px 0;
+  }
+  #navbar-primary img{
+    width: 120px;
+    height: 60px;
+    border-radius: 100px / 50px;
+    margin:15px;
+    padding: 0;
+  }
+  #navbar-primary .navbar-nav{
+    margin-right: 40px;
+  }
+  }
 
 
      /* mobile */
