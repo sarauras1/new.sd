@@ -94,7 +94,7 @@
 
 
 
-  @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
+  @media  (min-width : 769px) and (max-width: 991px) and (orientation: landscape) {
 
   #navbar-primary .navbar-nav li{
     font-size: 1.7rem;
@@ -111,24 +111,30 @@
     margin-right: 40px;
   }
   }
-
-  @media  (min-width : 600px) and (max-width: 768px) and (orientation: landscape) {
-
-  #navbar-primary .navbar-nav li{
-    font-size: 1.7rem;
-    padding: 20px 0;
+/* tablets */
+  @media only screen and (max-width : 768px) {
+  #navbar-primary{
+    margin-bottom: 100px;
   }
-  #navbar-primary img{
-    width: 120px;
-    height: 60px;
-    border-radius: 100px / 50px;
-    margin:15px;
+  #navbar-primary li {
+   font-size: 1.8rem;
+   text-align: center;
+  }
+    #navbar-primary img {
+   margin: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px /50px;
     padding: 0;
+    }
+   #navbar-primary .navbar-nav {
+    margin-top: 20px;
+      margin-right: 40px;
+    }
+
   }
-  #navbar-primary .navbar-nav{
-    margin-right: 40px;
-  }
-  }
+
+
 
 
      /* mobile */
@@ -159,6 +165,36 @@
        #navbar-primary span {
          padding-bottom: 30px;
          font-size: 2rem;
+       }
+     }
+     /* mobile */
+     @media only screen and (max-width : 450px) {
+     #navbar-primary{
+       margin-bottom: 100px;
+     }
+     #navbar-primary li {
+      font-size: 1.5rem;
+       text-align: center;
+
+     }
+       #navbar-primary img {
+      margin: 30px;
+       width: 80px;
+       height: 40px;
+       border-radius: 100px /50px;
+       padding: 0;
+       }
+       #navbar-primary .navbar-nav li:hover{
+         background-color: none;
+       }
+      #navbar-primary .navbar-nav {
+         margin-bottom: 20px;
+         margin-top: 100px;
+
+       }
+       #navbar-primary span {
+         padding-bottom: 30px;
+         font-size: 1.5rem;
        }
      }
 
