@@ -63,8 +63,6 @@
 
   }
 
-
-
   @media only screen and (min-width : 992px) {
 
     #navbar-primary .navbar-nav li{
@@ -80,11 +78,6 @@
     margin-right: 50px;
     }
     }
-
-
-
-
-
 
 
   @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
@@ -325,28 +318,33 @@ color: #a79031;
    #index {
       text-align: center;
    }
-   @media only screen and (min-width : 992px){
-         #index {
-            text-align: center;
-             padding: 0;
-
-         }
-   }
-   @media only screen and (max-width : 768px){
-         #index {
-            text-align: center;
-            margin-right: 90px;
-            margin-left: 0;
-         }
-   }
-@media only screen and (max-width : 425px){
-      #index {
-         text-align: center;
-         margin-right: 90px;
-         margin-left: 0;
-         padding-left: 0;
-      }
-}
+   .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: black;
+  }
+  
+  .carousel-indicators li {
+    border-color:black;
+    background-color: cornsilk;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: white;
+  }
+  
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 50px;
+    padding: 50px 70px;
+    background-color: cornsilk;
+  }
+  
+  .item span {
+    font-style: normal;
+  }
    /* lashes.html, brows.html and microblading.html*/
    .lashPara {
     font-size: 2rem;
@@ -356,6 +354,7 @@ color: #a79031;
     font-family: 'Permanent Marker', cursive;
     font-size: 2rem;
     text-align: center;
+    margin-top: 50px;
    }
    .microtitle{
     font-family: 'Permanent Marker', cursive;
@@ -367,7 +366,7 @@ color: #a79031;
    .lashimg {
       text-align: center;
       width: 500px;
-    margin: 20px;
+     margin: 5px;
     }
      .lashPara{
        margin: 0 20%;
@@ -375,7 +374,7 @@ color: #a79031;
     .browimg{
       text-align: center;
       width: 500px;
-      margin: 20px;
+      margin: 5px;
     }
   }
    @media only screen and (max-width : 767px){
@@ -388,12 +387,12 @@ color: #a79031;
     .browimg{
       text-align: center;
       width: 300px;
-      margin: 20px;
+      margin: 10px;
     }
 
   }
 
-
+  
    /* contact */
 
     footer {
