@@ -117,6 +117,7 @@
   }
   #navbar-primary li {
    font-size: 1.8rem;
+   padding-top:10px;
   }
     #navbar-primary img {
    margin: 20px 10px;
@@ -353,7 +354,7 @@ color: #a79031;
       font-weight: bold;
     }
     .item h4{
-      font-size: 1.2rem;
+      font-size: 1.7rem;
       font-style: italic;
       background-color: white;
       margin-bottom: 50px;
