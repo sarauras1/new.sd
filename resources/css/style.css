@@ -46,7 +46,6 @@
   .container {
    padding: 0;
    margin: 0 auto;
-   text-align: center;
    width: 100%;
   }
 
@@ -92,7 +91,6 @@
     }
     #navbar-primary .navbar-nav {
     margin-right: 50px;
-    text-align: right;
     }
     }
 
@@ -110,7 +108,6 @@
   }
   #navbar-primary .navbar-nav{
     margin-right: 40px;
-    text-align: right;
   }
   }
 
@@ -365,7 +362,21 @@ color: #a79031;
       font-style: normal;
     }
   }
-  
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: @screen-tablet) { 
+
+    ::i-block-chrome, .row.safari-fix  {
+      display:table!important;
+    }
+   ::i-block-chrome, .row.safari-fix [class*="col-"] {
+      display:table-cell!important;
+      float:none!important;
+     width:auto!important;
+     padding-left:2%!important;
+     padding-right:2%!important;
+    }
+  } /* end safari rounding bug hack */
+
    /* lashes.html, brows.html and microblading.html*/
    .lashPara {
     font-size: 2rem;
