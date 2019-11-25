@@ -111,7 +111,7 @@
   }
   }
 
-  @media only screen and (max-width : 768px) {
+  @media only screen and (min-width : 700px) and (max-width: 768) and (orientation: landscape){
   #navbar-primary{
     margin-bottom: 100px;
   }
@@ -364,7 +364,7 @@ color: #a79031;
     }
   }
 
-  @media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: @screen-tablet) { 
+  @media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 700px) { 
 
     ::i-block-chrome, .row.safari-fix  {
       display:table!important;
