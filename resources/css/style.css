@@ -9,7 +9,9 @@
     margin: 0 auto;
   }
 
-
+a {
+  text-decoration: none;
+}
   body {
    font-family: Edwrdian Script ITC;
    background-color: white;
@@ -70,6 +72,7 @@
   }
 
   #navbar-primary {
+   display: inline;
    background-color: white;
    border-bottom: 1px solid #a79031;
    color: black;
@@ -81,7 +84,7 @@
 
 /* desktop and tablet */
   
-  @media only screen and (min-width : 992px) {
+  @media (min-width : 992px) {
 
     #navbar-primary .navbar-nav li{
       font-size: 2rem;
@@ -98,7 +101,7 @@
     }
 
 
-  @media  (min-width : 768px) and (max-width: 991px) and (orientation: landscape) {
+  @media  (min-width : 768px){
 
   #navbar-primary .navbar-nav li{
     font-size: 1.7rem;
@@ -114,7 +117,7 @@
   }
   }
 
-  @media (min-width : 700px) and (max-width: 768) and (orientation: landscape){
+  @media (min-width : 768px) {
   #navbar-primary{
     margin-bottom: 100px;
   }
@@ -134,7 +137,7 @@
   }
 
      /* mobile*/ 
-     @media only screen and (max-width : 700px) {
+     @media  (max-width : 768px) {
      #navbar-primary{
        margin-bottom: 100px;
      }
@@ -222,35 +225,28 @@
   opacity: 5;
 }
 
+.button-title{
+  font-size: 4rem;
+}
 
 
-
-@media only screen and (min-width : 768px){
+@media (min-width : 768px){
  .services{
-   text-align: center;
+  text-align: center;
   width: 600px;
   height: 340px;
  }
   .collapsible {
-    text-align: center;
     width: 600px;
-    height: 70px;
-    margin-top: 90px;
+    height: 120px;
     margin-bottom: 50px;
    text-align: center;
    position: relative;
  }
- .centered {
-  font-size: 5rem;
-  z-index: 3;
  
- margin-top: -160px;
- text-align: center;
-
-}
 }
 
-@media only screen and (max-width : 767px){
+@media (max-width : 767px){
   .services{
     text-align: center;
     width: 400px;
@@ -259,22 +255,13 @@
    .collapsible {
      text-align: center;
      width: 400px;
-     height: 80px;
+     height: 120px;
      margin-bottom: 50px;
-
   }
-  .centered {
-    font-size: 4rem;
-    z-index: 3;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-  
-  }
+ 
  }
 
-@media only screen and (max-width: 425px){
+@media (max-width: 425px){
  .box-services{
    text-align: center;
    margin-bottom: 50px;
@@ -287,18 +274,10 @@
  }
   .collapsible {
     width: 300px;
-    height: 80px;
+    height: 120px;
     text-align: center;
  }
- .centered {
-  font-size: 4rem;
-  z-index: 3;
- position: absolute;
- top: 30%;
- left: 50%;
- transform: translate(-50%, -50%);
- 
-}
+
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -415,7 +394,7 @@ color: #a79031;
 
     .lashimg{
       text-align: center;
-      width: 300px;
+      max-width: 420px;
       margin-right: 10px;
     }
     .browimg{
