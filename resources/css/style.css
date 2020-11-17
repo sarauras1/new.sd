@@ -236,7 +236,7 @@ a {
  }
   .collapsible {
     width: 600px;
-    height: 120px;
+  
     margin-bottom: 50px;
    text-align: center;
    position: relative;
@@ -255,7 +255,7 @@ a {
    .collapsible {
      text-align: center;
      width: 400px;
-     height: 120px;
+    
      margin-bottom: 50px;
   }
  .button-title {
@@ -276,11 +276,11 @@ a {
  }
   .collapsible {
     width: 300px;
-    height: 80px;
+   
     text-align: center;
  }
 .button-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 }
 /* Style the button that is used to open and close the collapsible content */
