@@ -225,9 +225,7 @@ a {
   opacity: 5;
 }
 
-.button-title{
-  font-size: 4rem;
-}
+
 
 
 @media (min-width : 768px){
@@ -243,7 +241,9 @@ a {
    text-align: center;
    position: relative;
  }
- 
+ .button-title {
+   font-size: 4rem;
+ }
 }
 
 @media (max-width : 767px){
@@ -258,7 +258,9 @@ a {
      height: 120px;
      margin-bottom: 50px;
   }
- 
+ .button-title {
+   font-size: 3rem;
+ }
  }
 
 @media (max-width: 425px){
@@ -277,7 +279,9 @@ a {
     height: 120px;
     text-align: center;
  }
-
+.button-title {
+  font-size: 2rem;
+}
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
