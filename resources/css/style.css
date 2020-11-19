@@ -49,11 +49,14 @@ a {
 
   }
   .container {
-   padding: 0;
    margin: 0 auto;
    width: 100%;
   }
-
+   /* pages containers */
+.sevices-conteiner, 
+.reiki-container{
+  padding-top: 150px;
+}
   /* Navigation */
   #navbar-primary a {
   text-decoration: none;
@@ -118,9 +121,7 @@ a {
   }
 
   @media (min-width : 768px) {
-  #navbar-primary{
-    margin-bottom: 100px;
-  }
+  
   #navbar-primary li {
    font-size: 1.8rem;
    padding-top:10px;
@@ -138,9 +139,7 @@ a {
 
      /* mobile*/ 
      @media  (max-width : 768px) {
-     #navbar-primary{
-       margin-bottom: 100px;
-     }
+    
      #navbar-primary li {
       font-size: 1.5rem;
      }
@@ -217,69 +216,17 @@ a {
    /*services page*/
 
 .box-services{
- text-align: center;
  color: white;
-
+ margin: 0 auto;
+ padding: 0 20px;
 }
+
 .services{
-  opacity: 5;
-}
-
-
-
-
-@media (min-width : 768px){
- .services{
+  margin: 0 auto;
   text-align: center;
-  width: 600px;
-  height: 340px;
+ border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
  }
-  .collapsible {
-    width: 600px;
-    margin-bottom: 50px;
-   text-align: center;
-   position: relative;
- }
- .button-title {
-   font-size: 4rem;
- }
-}
-
-@media (max-width : 767px){
-  .services{
-    text-align: center;
-    width: 400px;
-
-  }
-   .collapsible {
-     text-align: center;
-     width: 400px;
-     margin-bottom: 50px;
-  }
- .button-title {
-   font-size: 3rem;
- }
- }
-
-@media (max-width: 425px){
- .box-services{
-   text-align: center;
-   margin-bottom: 50px;
-
- }
- .services{
-   width: 300px;
-   text-align: center;
-
- }
-  .collapsible {
-    width: 300px;
-    text-align: center;
- }
-.button-title {
-  font-size: 2.5rem;
-}
-}
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
 background-color: #2d2233;
@@ -290,13 +237,82 @@ color: #a79031;
  text-align: center;
  outline: none;
  font-size: 15px;
-
+ margin: 0 auto;
+ margin-bottom: 50px;
+ text-align: center;
+position: relative;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
  background-color:#693088;
 }
+
+@media (min-width : 769px){
+ .services {
+  width: 300px;
+   height: 160px;
+ }
+  .collapsible  { 
+    width: 300px;
+
+ }
+ .button-title {
+   font-size: 3rem;
+ }
+}
+@media (min-width : 1200px){
+ .services {
+  width: 500px;
+  height: 300px;
+ }
+  .collapsible  {
+    width: 500px; 
+ }
+ .button-title {
+   font-size: 4rem;
+ }
+}
+@media (min-width : 1124px){
+ .services  {
+  width: 450px;
+  height: 220px;
+ }
+  .collapsible  {
+    width: 450px; 
+ }
+ .button-title {
+   font-size: 4rem;
+ }
+}
+@media (max-width : 768px){
+  .services {
+    width: 400px;
+    height: 280px;
+  }
+   .collapsible {
+     width: 400px;
+    
+  }
+ .button-title {
+   font-size: 2.80rem;
+ }
+ }
+
+@media (max-width: 468px){
+
+ .services  {
+   height: 220px;
+   width: 300px;
+ }
+  .collapsible  {
+    width: 300px;
+ }
+.button-title {
+  font-size: 2.5rem;
+}
+}
+
 
 
    /* myStory */
@@ -361,7 +377,8 @@ color: #a79031;
     }
   } /* end safari rounding bug hack */
 
-   /* lashes.html, brows.html and microblading.html*/
+   /* lashes.html, brows.html and microblading.html, reiki*/
+
    .lashPara {
     font-size: 2rem;
      text-align: center;
@@ -420,11 +437,22 @@ color: #a79031;
      }
 
    }
-
-  
+   .reiki-image{
+     width:290px;
+     height:400px; 
+     margin-right:20px;
+   }
+  @media(max-width:425px ){
+    .reiki-image{
+      width: 100%;
+      height:300px; 
+      padding: 5px;
+    }
+  }
    /* contact */
-
-    footer {
+  
+    .contact {
+    margin: 0 auto;
     background-color: #cfc8ab;
     padding: 20px;
     text-align: center;
@@ -440,6 +468,8 @@ color: #a79031;
     margin: 5px;
   }
   #copyright {
+     margin: 0 auto;
+     width: 100%;
     text-align: center;
     background-color: #a3965f;
     color: #693088;
