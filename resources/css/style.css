@@ -228,7 +228,7 @@ a {
   border-top-right-radius: 5%;
  }
 /* Style the button that is used to open and close the collapsible content */
-.collapsible {
+.button-services {
 background-color: #2d2233;
 color: #a79031;
  cursor: pointer;
@@ -253,7 +253,7 @@ position: relative;
   width: 300px;
    height: 160px;
  }
-  .collapsible  { 
+  .button-services  { 
     width: 300px;
 
  }
@@ -266,7 +266,7 @@ position: relative;
   width: 500px;
   height: 300px;
  }
-  .collapsible  {
+  .button-services  {
     width: 500px; 
  }
  .button-title {
@@ -278,7 +278,7 @@ position: relative;
   width: 450px;
   height: 220px;
  }
-  .collapsible  {
+  .button-services  {
     width: 450px; 
  }
  .button-title {
@@ -290,7 +290,7 @@ position: relative;
     width: 400px;
     height: 280px;
   }
-   .collapsible {
+   .button-services {
      width: 400px;
     
   }
@@ -305,11 +305,15 @@ position: relative;
    height: 220px;
    width: 300px;
  }
-  .collapsible  {
+  .button-services  {
     width: 300px;
  }
 .button-title {
   font-size: 2.5rem;
+}
+.box-services{
+ margin: 0 auto;
+ padding: 0 20px;
 }
 }
 
