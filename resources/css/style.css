@@ -50,8 +50,8 @@ a {
   }
   .container {
    margin: 0 auto;
-   width: 100%;
   }
+ 
   .col-xs-12 .col-sm-12{
     margin: 0 auto;
    display: flex;
@@ -322,7 +322,6 @@ position: relative;
 
 
 
-
    /* myStory */
    #myStory{
     max-width: 900px;
@@ -339,7 +338,6 @@ position: relative;
    }
   
   @media only screen and (min-width : 767px){
-    
   
   .item h4 {
     font-size: 19px;
@@ -445,10 +443,16 @@ position: relative;
      }
 
    }
+   .reiki-container{
+     max-width: 600px;
+     margin: 20px auto;
+     padding: 150px 40px;
+   }
    .reiki-image{
+     float: left;
      width:290px;
-     height:400px; 
-     margin-right:20px;
+     height:220px; 
+     margin:20px;
    }
   @media(max-width:425px ){
     .reiki-image{
