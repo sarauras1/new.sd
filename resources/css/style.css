@@ -478,27 +478,54 @@ position: relative;
     color: #693088;
     padding: 10px;
   }
-  .whatsapp{
-   width: 50px;
+  .fa-whatsapp{
+    width: 60px;
+    border-radius: 30px;
+   font-size: 6rem;
    cursor: pointer;
    z-index: 3;
    position: fixed;
    bottom: 6%;
    right: 4%;
-  
+   background: green;
+   color: white;
+   text-align: center;
   }
   .dialog{
   padding: 10px;
   border: 1px solid #CCC;
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 0px;
+  border-radius: 30px;
   background: white;
    z-index: 3;
    position: fixed;
-   top: 43%;
+   bottom: 14%;
    right: 1.8%;
    color: black;
   font-size: 1.3rem;
-  }
+}
+
+
+
+
+.dialog:before,
+.dialog:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+
+.speech:after {
+	right: 19px;
+  bottom: -10px;
+	border: 5px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+.speech:before {
+	right: 20px;
+  bottom: -14px;
+	border: 6px solid;
+	border-color: #ccc transparent transparent #ccc;
+}
