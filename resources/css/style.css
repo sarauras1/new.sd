@@ -489,9 +489,18 @@ position: relative;
    right: 4%;
    background: green;
    color: white;
-   text-align: center;
   }
-
+@media(max-width: 468px){
+  .fa-whatsapp{
+   font-size: 4rem;
+   cursor: pointer;
+   z-index: 3;
+   position: fixed;
+   bottom: 6%;
+   right: 4%;
+   color: green;
+  }
+}
 
   .dialog{
   padding: 10px;
