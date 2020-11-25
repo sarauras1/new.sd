@@ -478,3 +478,27 @@ position: relative;
     color: #693088;
     padding: 10px;
   }
+  .whatsapp{
+   width: 50px;
+   cursor: pointer;
+   z-index: 3;
+   position: fixed;
+   bottom: 6%;
+   right: 4%;
+  
+  }
+  .dialog{
+  padding: 10px;
+  border: 1px solid #CCC;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  background: white;
+   z-index: 3;
+   position: fixed;
+   top: 43%;
+   right: 1.8%;
+   color: black;
+  font-size: 1.3rem;
+  }
