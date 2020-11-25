@@ -479,7 +479,7 @@ position: relative;
     padding: 10px;
   }
   .fa-whatsapp{
-    width: 60px;
+    padding:4px 8px;
     border-radius: 30px;
    font-size: 6rem;
    cursor: pointer;
@@ -491,6 +491,8 @@ position: relative;
    color: white;
    text-align: center;
   }
+
+
   .dialog{
   padding: 10px;
   border: 1px solid #CCC;
