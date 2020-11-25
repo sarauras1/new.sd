@@ -478,7 +478,7 @@ position: relative;
     color: #693088;
     padding: 10px;
   }
-  @media(min-width: 468px){
+  @media(min-width: 469px){
   .fa-whatsapp{
     padding:4px 8px;
     border-radius: 30px;
