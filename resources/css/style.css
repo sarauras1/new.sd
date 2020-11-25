@@ -478,7 +478,7 @@ position: relative;
     color: #693088;
     padding: 10px;
   }
-  @media(min-width: 469px){
+  
   .fa-whatsapp{
     padding:4px 8px;
     border-radius: 30px;
@@ -491,19 +491,8 @@ position: relative;
    background: green;
    color: white;
   }
-}
+
   
-@media(max-width: 468px){
-  .fa-whatsapp{
-   font-size: 5rem;
-   cursor: pointer;
-   z-index: 3;
-   position: fixed;
-   bottom: 6%;
-   right: 4%;
-   color: green;
-  }
-}
 
   .dialog{
   padding: 10px;
