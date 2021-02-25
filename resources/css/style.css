@@ -308,27 +308,94 @@ position: relative;
 
 
    /* myStory */
+   .about-title{
+     text-align: center;
+     margin: 0 auto;
+     padding-bottom: 70px;
+   }
+   .emtext{
+     max-width: 300px !important;
+   }
+   @media(min-width: 770px) {
    .myStory{
     border-right: 20px dotted #a3965f;
     border-bottom: 20px dotted #a3965f;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 200px auto;
     text-align: left;
    }
   
-   .emtext{
-     max-width: 300px !important;
-     margin-right: 50px;
-   }
-   .pull-left {
+   
+   .img-about {
      box-shadow:0px 0px,
      0px 0px,
      -40px -50px #a3965f;
-     z-index: 1 !important;
-     max-width:600px;
-     max-height:600px;
+     max-width:500px;
+     max-height:500px;
      margin: 20px;
    }
+   }
+    @media(max-width: 769px) {
+      .myStory {
+        border-right: 10px dotted #a3965f;
+        border-bottom: 10px dotted #a3965f;
+        margin: 200px auto;
+        text-align: left;
+        padding: 30px;
+        max-width: 700px;
+      }
+
+      .img-about {
+        text-align: center !important;
+        box-shadow: 0px 0px,
+          0px 0px,
+          -40px -50px #a3965f;
+        max-width: 490px;
+        max-height: 490px;
+        margin: auto 40px;
+      }
+    }
+    @media(max-width: 468px) {
+      .myStory {
+        margin: 150px auto;
+        text-align: left;
+      }
+
+      .img-about {
+         text-align: center !important;
+        max-width: 360px;
+        max-height: 360px;
+        margin: 20px;
+      }
+    }
+        @media(max-width: 375px) {
+          .myStory {
+            margin: 100px auto;
+            text-align: left;
+          } 
+
+          .img-about { 
+            text-align: center !important;
+            max-width: 300px;
+            max-width: 300px;
+            margin: 20px;
+
+          }
+        }
+          @media(max-width: 320px) {
+            .myStory {
+              margin: 100px auto;
+              text-align: left;
+            }
+
+            .img-about {
+              text-align: center !important;
+              max-width: 260px;
+              max-width: 260px;
+              margin: 20px;
+
+            }
+          }
    /* index.html */
    #indexh1 {
     margin-top:200px;
