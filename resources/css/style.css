@@ -339,7 +339,7 @@ position: relative;
    }
   .testimonial-title{
     border-bottom: 2px solid #a3965f;
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
   }
   @media only screen and (min-width : 767px){
