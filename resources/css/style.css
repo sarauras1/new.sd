@@ -1,9 +1,11 @@
 /* Universal Styles */
 
-* {
-    box-sizing: border-box;
-  }
-
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
   html {
     font-size: 20px;
     margin: 0 auto;
@@ -60,9 +62,8 @@ a {
    align-items: center;
   }
    /* pages containers */
-.sevices-conteiner, 
-.reiki-container{
-  padding-top: 150px;
+#sevices-conteiner {
+  padding-top: 60px;
 }
   /* Navigation */
   #navbar-primary a {
@@ -84,7 +85,9 @@ a {
   #navbar-primary {
    display: inline;
    background-color: white;
-   border-bottom: 1px solid #a79031;
+   box-shadow: 2px 2px
+   3px 3px
+   #a79031;
    color: black;
    width: 100%;
    position: fixed;
@@ -94,60 +97,91 @@ a {
 
 
 
+ .nav-social:hover {
+   color: #5e5841;
+   border: 1px solid #514c53;
+
+ }
   
  /*  navbar*/ 
-  @media (min-width: 768px) {
-  
+  @media (min-width: 701px) {
   #navbar-primary li {
    margin: 23px 2px;
    font-size: 1.8rem;
    top: 10%;
   }
     #navbar-primary img {
-   margin: 20px 10px;
-    width: 150px;
-    height: 75px;
+   margin: 20px;
+   width: auto;
+   height: 80px;
+    border-radius:50%;
     }
    #navbar-primary .navbar-nav {
     margin-top: 6px;
     margin-right: 10px;
     }
-    
+    .nav-social {
+      float: right;
+    }
+     .nav-social {
+       color: #a79031;
+       border: 1px solid #493f4e ;
+       border-radius: 50%;
+       padding: 8px;
+       margin-top: 40px;
+       margin-right: 7px;
+     }
+     
   }
-
+ 
+  
+ 
      /* mobile and  navbar*/ 
-     @media  (max-width : 767px) {
+     @media  (max-width : 700px) {
     
      #navbar-primary li {
+     border-bottom: 1px solid #a79031;
       font-size: 1.5rem;
      }
        #navbar-primary img {
-       margin: 30px 10px;
-       width: 80px;
-       height: 40px;
-       border-radius: 100px /50px;
+       margin: 30px 20px;
+       width: auto;   
+       border-radius:50%;
        padding: 0;
        }
+      
       #navbar-primary .navbar-nav {
          margin-bottom: 20px;
-         margin-top: 100px;
+         margin-top: 80px;
          text-align: center;
        }
        #navbar-primary span {
          padding-bottom: 30px;
          font-size: 1.5rem;
        }
+       .nav-social {
+       color:#a79031;
+       border-radius: 50%;
+       padding: 8px;
+       border: 1px solid #2d2233;
+       margin-top: 40px;
+       margin-right: 7px;
+       }
      }
 
    /*product page*/
 
    
-   @media only screen and (min-width : 767px){
-
-    #SDoil{
+   @media only screen and (min-width: 768px){
+    #product-container{
+      max-width: 800px;
+      margin: 10px auto;
+    
+    }
+    .SDoil{
+      margin: 20px auto;
       text-align: center;
-      width: 500px;
-      height: 300px;
+      max-width: 765px;
     }
      .oils {
     float: left;
@@ -155,39 +189,161 @@ a {
      height: 200px;
      margin-right: 40px;
    }
-   .benefits {
-     color: black;
-     margin-top:30px;
-     margin-bottom:20px;
-     font-size: 2rem;
+     .heading-sd {
+       font-size: 22px;
+       font-weight: bold;
+       text-align: left;
+       margin-left: 10px;
+     }
 
+     .heading-list-sd {
+       font-size: 18px;
+       font-weight: bold;
+       text-align: left;
+     }
+    .ul-sd { 
+      position: relative;
+    }
+
+    .li-sd {  
+      font-size: 20px;
+    }
+
+    .para-sd {
+      font-size: 21px;
+    }
+.benefits {
+    padding: 10px 80px;
+     color: black;
+     font-size: 2rem;
+    max-width: 600px;
+    margin: 30px auto;
    }
   }
+  
+
    @media only screen and (max-width : 767px){
-
-    .oils {
-      width: 290px;
-      height: 200px;
-    }
-    #SDoil{
-      text-align: center;
-      width: 300px;
-      height: 159px;
-    }
-  }
-
-   @media only screen and (max-width : 425px){
+     .SDoil {
+       text-align: center;
+       width: 100%;
+       margin: auto;
+     }
     #title h1 {
+      text-align: center;
       font-size: 2rem;
+      font-weight: bold;
     }
      .benefits{
-       font-size: 1.5rem;
+       padding: 0 20px;
+       margin: 10px auto;
        position: relative;
 
      }
+     .heading-sd{
+       font-size: 20px;
+       font-weight: bold;
+       padding: 0 50px;
+       text-align: left;
+     }
+     .heading-list-sd{
+       font-size: 18px;
+       font-weight: bold;
+        padding: 0 50px;
+        text-align: left;
+     }
+     .sd-h2{
+       font-size: 20px;
+     }
+     .para-sd-title{
+       font-size: 18px;
+     }
+     .ul-sd{
+      position: relative;
+       padding: 0 60px;
+     }
+     .li-sd {
+        font-size: 17px;
+        margin: 0 auto;
+        text-align: left;
+     }
+     .para-sd{
+       font-size: 17px;
+       margin: 0 auto;
+       padding: 0 50px;
+       text-align: left;
+     }
      .oils{
+       width: 80%;
+       height: 200px;
        text-align: center;
-       margin-bottom: 20px;
+       margin: 20px auto;
+     }
+   }
+   @media only screen and (max-width : 375px) {
+     .SDoil {
+       text-align: center;
+       width: 100%;
+       margin: auto;
+     }
+
+     #title h1 {
+       text-align: center;
+       font-size: 2rem;
+       font-weight: bold;
+     }
+
+     .benefits {
+       padding: 0 20px;
+       margin: 10px auto;
+       position: relative;
+
+     }
+
+     .heading-sd {
+       font-size: 20px;
+       font-weight: bold;
+       padding: 0 10px;
+       text-align: left;
+     }
+
+     .heading-list-sd {
+       font-size: 18px;
+       font-weight: bold;
+       padding: 0 10px;
+       text-align: left;
+     }
+
+     .sd-h2 {
+       font-size: 20px;
+     }
+
+     .para-sd-title {
+       font-size: 18px;
+     }
+
+     .ul-sd {
+       position: relative;
+       padding: 0 60px;
+     }
+
+     .li-sd {
+       font-size: 17px;
+       margin: 0 auto;
+       text-align: left;
+     }
+
+     .para-sd {
+       font-size: 17px;
+       margin: 0 auto;
+       padding: 0 10px;
+       text-align: left;
+     }
+
+     .oils {
+       width: 100%;
+       height: 200px;
+       text-align: center;
+       margin: 20px auto;
      }
    }
 
@@ -228,8 +384,8 @@ position: relative;
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {  
  .services {
-    width: auto;
-    height: auto;
+    width: 300px;
+    height: 300px;
   }
    .button-services {
      width: 300px;
@@ -267,11 +423,11 @@ position: relative;
 /* Medium devices (, less than 992px)*/
 @media (min-width: 991px) { 
   .services {
-  width: 300px;
-   height: 160px;
+  width: 250px;
+   height: 150px;
  }
   .button-services  { 
-    width: 300px;
+    width: 250px;
 
  }
  .button-title {
@@ -283,7 +439,7 @@ position: relative;
 @media (max-width:990px) { 
   .services  {
   width: 300px;
-  height: 220px;
+  height: 150px;
  }
   .button-services  {
     width: 300px; 
@@ -294,18 +450,16 @@ position: relative;
 }
 @media (min-width: 1200.98px) { 
   .services  {
-  width: 450px;
+  width: 400px;
   height: 220px;
  }
   .button-services  {
-    width: 450px; 
+    width: 400px; 
  }
  .button-title {
    font-size: 4rem;
  }
 }
-
-
 
    /* myStory */
    .about-title{
@@ -455,8 +609,11 @@ position: relative;
     }
   } /* end safari rounding bug hack */
 
-   /* lashes.html, brows.html and microblading.html, reiki*/
-
+   /* lashes.html, brows.html and microblading.html, reiki, service margin and border*/
+   .micro-img{
+     margin: 20px;
+     max-width: 500px;
+   }
    .lashPara {
     font-size: 2rem;
      text-align: center;
@@ -470,24 +627,40 @@ position: relative;
     font-size: 2rem;
     text-align: center;
    }
-   @media only screen and (min-width : 767px){
-
+   @media only screen and (min-width: 767px){
+#lashes-container,
+#brows-container,
+#micr-container,
+#reiki-container,
+#sevices-conteiner {
+  margin: 200px auto !important;
+  border-right: 13px dotted #ccc;
+  border-left: 13px dotted #ccc;
+   padding: 20px;
+}
    .lashimg {
       text-align: center;
-      width: 500px;
+      max-width: 650px;
      margin: 5px;
     }
      .lashPara{
-       margin: 0 20%;
+       max-width: 650px;
+       margin: 20px auto;
      }
     .browimg{
+      max-width: 650px;
       text-align: center;
-      width: 500px;
       margin: 5px;
     }
   }
    @media only screen and (max-width : 767px){
-
+#lashes-container,
+#brows-container,
+#micr-container,
+#reiki-container,
+#sevices-conteiner {
+  margin: 200px auto !important;
+}
     .lashimg{
       text-align: center;
       max-width: 500px;
@@ -501,7 +674,14 @@ position: relative;
 
   }
    @media only screen and (max-width : 468px) {
+#lashes-container,
+#brows-container,
+#micr-container,
+#reiki-container,
+#sevices-conteiner {
+  margin: 200px auto !important;
 
+}
      .lashimg {
        text-align: center;
        max-width: 300px;
@@ -515,11 +695,11 @@ position: relative;
      }
 
    }
-   @media(min-width: 651px){
-   .reiki-container{
-     max-width: 600px;
+   @media(min-width: 768px){
+   #reiki-container{
+     max-width: 800px;
      margin: 20px auto;
-     padding: 150px 40px;
+     padding: 0 40px;
    }
    .reiki-image{
      float: left;
@@ -528,11 +708,18 @@ position: relative;
      margin:20px;
    }
   }
-  @media(max-width:650px ){
-    .reiki-container{
+  @media(max-width:767px ){
+    #lashes-container,
+    #brows-container,
+    #micr-container,
+    #reiki-container,
+    #sevices-conteiner {
+      margin: 200px auto !important;
+
+    }
+    #reiki-container{
      max-width: 500px;
-     margin: 20px auto;
-     padding: 150px 40px;
+     padding: 0 40px;
    }
     .reiki-image{
       width: 100%;
@@ -567,7 +754,7 @@ position: relative;
   }
   
   .fa-whatsapp{
-    padding:4px 8px;
+    padding:3px 7px;
     border-radius: 30px;
    font-size: 6rem;
    cursor: pointer;
@@ -575,8 +762,12 @@ position: relative;
    position: fixed;
    bottom: 6%;
    right: 4%;
-   background: green;
-   color: white;
+   background:#2d2233;
+   color: #a79031;
+  }
+  .fa-whatsapp:hover{
+     background:#493f4e;
+     color: #ac9a55;
   }
 
   
