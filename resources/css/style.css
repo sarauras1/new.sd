@@ -236,9 +236,9 @@ a {
        width: 100%;
        margin: auto;
      }
-    #title h1 {
+    .title h1 {
       text-align: center;
-      font-size: 2rem;
+      font-size: 30px;
       font-weight: bold;
     }
      .benefits{
@@ -294,9 +294,9 @@ a {
        margin: auto;
      }
 
-     #title h1 {
+     .title h1 {
        text-align: center;
-       font-size: 2rem;
+       font-size: 25px;
        font-weight: bold;
      }
 
@@ -503,7 +503,6 @@ position: relative;
         border-bottom: 10px dotted #a3965f;
         margin: 200px auto;
         text-align: left;
-        padding: 30px;
         max-width: 700px;
       }
 
@@ -514,10 +513,13 @@ position: relative;
           -40px -50px #a3965f;
         max-width: 490px;
         max-height: 490px;
-        margin: auto 40px;
+        margin: 40px auto;
+      }
+      .title-story-div {
+        margin-bottom: 100px;
       }
     }
-    @media(max-width: 468px) {
+    @media(max-width: 600px) {
       .myStory {
         margin: 150px auto;
         text-align: left;
@@ -527,10 +529,10 @@ position: relative;
          text-align: center !important;
         max-width: 360px;
         max-height: 360px;
-        margin: 20px;
+        margin: 20px auto;
       }
     }
-        @media(max-width: 375px) {
+        @media(max-width: 376px) {
           .myStory {
             margin: 100px auto;
             text-align: left;
@@ -543,13 +545,18 @@ position: relative;
             margin: 20px;
 
           }
+          .title-story-div {
+            margin-bottom: 50px;
+          }
         }
           @media(max-width: 320px) {
             .myStory {
               margin: 100px auto;
               text-align: left;
             }
-
+            .myStory p{
+              font-size: 19px;
+            }
             .img-about {
               text-align: center !important;
               max-width: 260px;
@@ -557,6 +564,14 @@ position: relative;
               margin: 20px;
 
             }
+            .title-story-div{
+              margin-top: 100px;
+              margin-bottom: 50px;
+            }
+             .title-story-div h1 {
+              font-size: 25px;
+              font-weight: bold;
+             }
           }
    /* index.html */
    
