@@ -611,15 +611,7 @@ position: relative;
 
    /* lashes.html, brows.html and microblading.html, reiki, service margin and border*/
    
-   .lashPara {
-    font-size: 2rem;
-     text-align: center;
-   }
-   .lashtitle{
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 50px;
-   }
+   
   
    @media only screen and (min-width: 767px){
 #lashes-container,
@@ -666,6 +658,16 @@ position: relative;
        font-size: 2rem;
        text-align: center;
      }
+     .lashPara {
+       font-size: 2rem;
+       text-align: center;
+     }
+
+     .lashtitle {
+       font-size: 2rem;
+       text-align: center;
+       margin-top: 50px;
+     }
   }
    @media only screen and (max-width : 767px){
 #lashes-container,
@@ -682,7 +684,7 @@ position: relative;
     }
     .browimg{
       text-align: center;
-      width: 300px;
+      width: 500px;
       margin: 10px;
     }
   .micro-img {
@@ -703,12 +705,20 @@ position: relative;
      max-width: 500px;
      padding: 0 40px;
    }
-
+  #lashes-container p {
+    padding: 5px;
+    font-size: 18px;
+    text-align: left;
+  }
    .reiki-image {
      width: 100%;
      height: 300px;
    }
-   
+  
+   .lashtitle {
+     font-size: 1.8rem;
+     text-align: center;
+   }
   }
  @media only screen and (max-width: 600px) {
 #lashes-container,
@@ -717,15 +727,56 @@ position: relative;
 #reiki-container,
 #sevices-conteiner {
   margin: 200px auto !important;
-
+  padding: 10px;
+}
+#micr-container h1,
+#lashes-container h1,
+#brows-container h1,
+#reiki-container h1
+  {
+  font-size: 25px;
+  text-align: center;
+}
+#micr-container h2,
+#lashes-container h2,
+#brows-container h2,
+#reiki-container h2
+ {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#lashes-container h3,
+#brows-container h3,
+#micr-container h3,
+#reiki-container h3
+ {
+ font-size: 18px;
+ font-weight: bold;
+}
+#brows-container p,
+#lashes-container p,
+#micr-container p,
+#reiki-container p{
+   padding: 5px;
+   font-size: 16px;
+   text-align: left;
+}
+#brows-container li,
+#lashes-container li,
+#micr-container li,
+#reiki-container li {
+  padding: 5px;
+  font-size: 16px;
+  text-align: left;
+}
+.p-br-last{
+  text-align: center !important;
 }
 #micr-container{
   width: 100%;
   padding: 5px;
   margin: 0 auto;
-}
-#micr-container p, li{
-  font-size: 16px;
 }
 #micr-container p, li, strong{
    padding: 5px 20px;
@@ -734,28 +785,22 @@ position: relative;
 h4 {
   padding: 0 20px;
 }
-#micr-container .microtitle h1 {
-  font-size: 25px;
-}
+
 #micr-container h3 {
-  font-size: 20px;
-  font-weight: bold;
   padding-left: 20px;
 }
-#micr-container h2 {
-  font-size: 20px;
-  font-weight: bold;
 
-}
      .lashimg {
        text-align: center;
-       max-width: 300px;
+       width: 100%;
        margin-right: 10px;
      }
 
+
+
      .browimg {
        text-align: center;
-       width: 300px;
+       width: 100%;
        margin: 10px;
      }
     .micro-img{
