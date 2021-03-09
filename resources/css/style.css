@@ -104,18 +104,19 @@ a {
  }
   
  /*  navbar*/ 
-  @media (min-width: 701px) {
+  @media (min-width: 771px) {
   #navbar-primary li {
    margin: 23px 2px;
    font-size: 1.8rem;
    top: 10%;
   }
-    #navbar-primary img {
+ #navbar-primary img {
    margin: 20px;
    width: auto;
    height: 80px;
     border-radius:50%;
-    }
+ }
+
    #navbar-primary .navbar-nav {
     margin-top: 6px;
     margin-right: 10px;
@@ -137,11 +138,18 @@ a {
   
  
      /* mobile and  navbar*/ 
-     @media  (max-width : 700px) {
-    
-     #navbar-primary li {
+     @media  (max-width : 770px) {
+     #navbar-primary ul {
+       padding: 0%;
+       margin-right: 10px;
+       width: 100%;
+     }
+     #navbar-primary li{
      border-bottom: 1px solid #a79031;
       font-size: 1.5rem;
+      padding: 0%;
+      margin: 0 auto;
+      width: 100%;
      }
        #navbar-primary img {
        margin: 30px 20px;
@@ -669,7 +677,6 @@ position: relative;
        font-size: 3rem;
        font-weight: bold;
        text-align: center;
-       margin-top: 40px;
        margin-bottom: 50px;
      }
   }
@@ -681,10 +688,14 @@ position: relative;
 #sevices-conteiner {
   margin: 200px auto !important;
 }
+#sevices-conteiner h1{
+  margin-bottom: 50px;
+}
 #micr-container h1,
 #lashes-container h1,
 #brows-container h1,
-#reiki-container h1 {
+#reiki-container h1,
+#sevices-conteiner h1 {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
@@ -763,12 +774,15 @@ position: relative;
    
   }
  @media only screen and (max-width: 600px) {
+
+#sevices-conteiner {
+  margin: 100px auto !important;
+}
 #lashes-container,
 #brows-container,
 #micr-container,
-#reiki-container,
-#sevices-conteiner {
-  margin: 200px auto !important;
+#reiki-container{
+ margin: 150px auto !important;
 }
 #micr-container h1,
 #lashes-container h1,
