@@ -165,7 +165,7 @@ a {
        padding: 8px;
        border: 1px solid #2d2233;
        margin-top: 40px;
-       margin-right: 7px;
+       margin-right: 5px;
        }
      }
 
@@ -610,10 +610,7 @@ position: relative;
   } /* end safari rounding bug hack */
 
    /* lashes.html, brows.html and microblading.html, reiki, service margin and border*/
-   .micro-img{
-     margin: 20px;
-     max-width: 500px;
-   }
+   
    .lashPara {
     font-size: 2rem;
      text-align: center;
@@ -623,10 +620,7 @@ position: relative;
     text-align: center;
     margin-top: 50px;
    }
-   .microtitle{
-    font-size: 2rem;
-    text-align: center;
-   }
+  
    @media only screen and (min-width: 767px){
 #lashes-container,
 #brows-container,
@@ -652,6 +646,26 @@ position: relative;
       text-align: center;
       margin: 5px;
     }
+    .micro-img {
+      margin: 20px;
+      max-width: 500px;
+    }
+    #reiki-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 40px;
+    }
+
+    .reiki-image {
+      float: left;
+      width: 290px;
+      height: 220px;
+      margin: 20px;
+    }
+     .microtitle {
+       font-size: 2rem;
+       text-align: center;
+     }
   }
    @media only screen and (max-width : 767px){
 #lashes-container,
@@ -671,15 +685,66 @@ position: relative;
       width: 300px;
       margin: 10px;
     }
-
+  .micro-img {
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
   }
-   @media only screen and (max-width : 468px) {
+  #micr-container p {
+    padding: 0 20px;
+    font-size: 18px;
+  }
+  #micr-container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+   #reiki-container {
+     max-width: 500px;
+     padding: 0 40px;
+   }
+
+   .reiki-image {
+     width: 100%;
+     height: 300px;
+   }
+   
+  }
+ @media only screen and (max-width: 600px) {
 #lashes-container,
 #brows-container,
 #micr-container,
 #reiki-container,
 #sevices-conteiner {
   margin: 200px auto !important;
+
+}
+#micr-container{
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+}
+#micr-container p, li{
+  font-size: 16px;
+}
+#micr-container p, li, strong{
+   padding: 5px 20px;
+}
+#micr-container
+h4 {
+  padding: 0 20px;
+}
+#micr-container .microtitle h1 {
+  font-size: 25px;
+}
+#micr-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+#micr-container h2 {
+  font-size: 20px;
+  font-weight: bold;
 
 }
      .lashimg {
@@ -693,39 +758,14 @@ position: relative;
        width: 300px;
        margin: 10px;
      }
-
-   }
-   @media(min-width: 768px){
-   #reiki-container{
-     max-width: 800px;
-     margin: 20px auto;
-     padding: 0 40px;
-   }
-   .reiki-image{
-     float: left;
-     width:290px;
-     height:220px; 
-     margin:20px;
-   }
-  }
-  @media(max-width:767px ){
-    #lashes-container,
-    #brows-container,
-    #micr-container,
-    #reiki-container,
-    #sevices-conteiner {
-      margin: 200px auto !important;
-
-    }
-    #reiki-container{
-     max-width: 500px;
-     padding: 0 40px;
-   }
-    .reiki-image{
+    .micro-img{
+      margin: 0 auto;
       width: 100%;
-      height:300px; 
     }
-  }
+    
+   }
+   
+  
    /* contact */
   
     .contact {
