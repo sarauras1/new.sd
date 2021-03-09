@@ -551,10 +551,7 @@ position: relative;
             }
           }
    /* index.html */
-   #indexh1 {
-    margin-top:200px;
-    color: black;
-   }
+   
    #index {
       text-align: center;
    }
@@ -563,7 +560,7 @@ position: relative;
     max-width: 300px;
     margin: auto;
   }
-  @media only screen and (min-width : 767px){
+  @media only screen and (min-width : 771px){
   
   .item h4 {
     font-size: 19px;
@@ -577,8 +574,12 @@ position: relative;
   .item span {
     font-style: normal;
   }
+  #indexh1 {
+    margin-top: 200px;
+    color: black;
+  }
 }
-  @media only screen and (max-width : 767px){
+  @media only screen and (max-width : 770px){
    
     #reviews {
       font-size: 2rem;
@@ -592,6 +593,10 @@ position: relative;
     }
     .item span {
       font-style: normal;
+    }
+    #indexh1 {
+      margin-top: 300px;
+      color: black;
     }
   }
 
@@ -654,28 +659,75 @@ position: relative;
       height: 220px;
       margin: 20px;
     }
-     .microtitle {
-       font-size: 2rem;
-       text-align: center;
-     }
+    
      .lashPara {
        font-size: 2rem;
        text-align: center;
      }
 
-     .lashtitle {
-       font-size: 2rem;
+     .title {
+       font-size: 3rem;
+       font-weight: bold;
        text-align: center;
-       margin-top: 50px;
+       margin-top: 40px;
+       margin-bottom: 50px;
      }
   }
-   @media only screen and (max-width : 767px){
+@media only screen and (max-width : 767px){
 #lashes-container,
 #brows-container,
 #micr-container,
 #reiki-container,
 #sevices-conteiner {
   margin: 200px auto !important;
+}
+#micr-container h1,
+#lashes-container h1,
+#brows-container h1,
+#reiki-container h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+#micr-container h2,
+#lashes-container h2,
+#brows-container h2,
+#reiki-container h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#lashes-container h3,
+#brows-container h3,
+#micr-container h3,
+#reiki-container h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#brows-container p,
+#lashes-container p,
+#micr-container p,
+#reiki-container p {
+  padding: 10px;
+  font-size: 19px;
+  text-align: left;
+}
+
+#brows-container li,
+#lashes-container li,
+#micr-container li,
+#reiki-container li {
+  padding: 5px;
+  font-size: 19px;
+  text-align: left;
+}
+
+.p-br-last {
+  text-align: center !important;
 }
     .lashimg{
       text-align: center;
@@ -684,7 +736,7 @@ position: relative;
     }
     .browimg{
       text-align: center;
-      width: 500px;
+      max-width: 500px;
       margin: 10px;
     }
   .micro-img {
@@ -692,10 +744,7 @@ position: relative;
     margin: 20px auto;
     width: 100%;
   }
-  #micr-container p {
-    padding: 0 20px;
-    font-size: 18px;
-  }
+  
   #micr-container {
     width: 100%;
     padding: 20px;
@@ -705,20 +754,13 @@ position: relative;
      max-width: 500px;
      padding: 0 40px;
    }
-  #lashes-container p {
-    padding: 5px;
-    font-size: 18px;
-    text-align: left;
-  }
+  
    .reiki-image {
      width: 100%;
      height: 300px;
    }
   
-   .lashtitle {
-     font-size: 1.8rem;
-     text-align: center;
-   }
+   
   }
  @media only screen and (max-width: 600px) {
 #lashes-container,
@@ -727,15 +769,16 @@ position: relative;
 #reiki-container,
 #sevices-conteiner {
   margin: 200px auto !important;
-  padding: 10px;
 }
 #micr-container h1,
 #lashes-container h1,
 #brows-container h1,
 #reiki-container h1
   {
+  font-weight: bold;
   font-size: 25px;
   text-align: center;
+ 
 }
 #micr-container h2,
 #lashes-container h2,
@@ -758,8 +801,8 @@ position: relative;
 #lashes-container p,
 #micr-container p,
 #reiki-container p{
-   padding: 5px;
-   font-size: 16px;
+   padding: 10px;
+   font-size: 18px;
    text-align: left;
 }
 #brows-container li,
@@ -793,19 +836,18 @@ h4 {
      .lashimg {
        text-align: center;
        width: 100%;
-       margin-right: 10px;
+       padding: 10px;
      }
-
-
-
      .browimg {
        text-align: center;
        width: 100%;
-       margin: 10px;
+       margin: auto;
+       padding: 10px;
      }
     .micro-img{
       margin: 0 auto;
       width: 100%;
+       padding: 10px;
     }
     
    }
