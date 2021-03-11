@@ -588,7 +588,7 @@ position: relative;
   .item h4 {
     font-size: 19px;
     line-height: 1.375em;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
     margin: 70px 50px;
     padding: 50px 70px;
@@ -596,6 +596,7 @@ position: relative;
   }
   .item span {
     font-style: normal;
+    font-weight: bold;
   }
   #indexh1 {
     margin-top: 200px;
@@ -611,11 +612,14 @@ position: relative;
     .item h4{
       font-size: 1.7rem;
       font-style: italic;
+       font-weight: 500;
+       line-height: 1.7;
       background-color: white;
       margin-bottom: 50px;
     }
     .item span {
       font-style: normal;
+      font-weight: 700;
     }
     #indexh1 {
       margin-top: 300px;
